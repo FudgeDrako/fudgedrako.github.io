@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Alvarez: Work: Final</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header class="workMainHeader">
+  <h1>Work</h1>
+	<script LANGUAGE="JavaScript">
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+         months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+
+// Print out the data.
+document.write(today);
+
+//  End -->
+</script>
+</header>
+<nav class="mainNav">
+  <ul>
+    <li><a href="../index.htm">Home</a></li>
+    <li><a href="../about/about.htm">About</a></li>
+    <li><a href="work.htm" class="Hcurrent">Work</a></li>
+    <li><a href="../contact/contact.htm">Contact</a></li>
+  </ul>
+</nav>
+<main class="workMainContent">
+	<ul>
+	  <li><a href="advertising/advertising.htm">Advertising</a></li>
+	  <li><a href="interactive/interactive.htm">Interactive</a></li>
+	  <li><a href="branding/branding.htm">Branding</a></li>
+  </ul>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+</main>
+<footer class="mainFooter">
+  <h4><a href="../index.htm">Home</a> | <a href="../about/about.htm">About</a> | <a href="work.htm">Work</a> | <a href="../contact/contact.htm">Contact</a></h4>
+</footer>
+	<p><a href="../index.htm" id="top"><img src="../images/homeNav.png" width="120" height="35" alt=""/></a><a href="../about/about.htm"><img src="../images/aboutNav.png" width="120" height="35" alt=""/></a><a href="work.htm"><img src="../images/workNav.png" alt="" width="120" height="35" class="Icurrent"/></a><a href="../contact/contact.htm"><img src="../images/contactNav.png" width="120" height="35" alt=""/></a></p>
+	<p><a href="#middle">Page Middle</a> | <a href="#bottom">Page Bottom</a></p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p id="middle">Middle<br>
+	</p>
+	<p><a href="#top">[top]</a></p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p id="bottom">Bottom<br>
+	</p>
+	<p><a href="#top">[top]</a></p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp; </p>
+</body>
+</html>

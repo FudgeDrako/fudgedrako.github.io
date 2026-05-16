@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Alvarez: Home: Final</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header class="mainHeader">
+  <h1>Home</h1>
+	<script LANGUAGE="JavaScript">
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+         months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+
+// Print out the data.
+document.write(today);
+
+//  End -->
+</script>
+	<img src="images/skyBannerAbsolute.png" alt="" width="120" height="600" id="skyBanner"/>
+	</header>
+<nav class="mainNav">
+  <ul>
+    <li><a href="index.htm" class="Hcurrent">Home</a></li>
+    <li><a href="about/about.htm">About</a></li>
+    <li><a href="work/work.htm">Work</a></li>
+    <li><a href="contact/contact.htm">Contact</a></li>
+  </ul>
+</nav>
+<main class="mainContent">
+  <p><img src="images/mainContentWrap.png" width="100" height="100" alt="Image of small dog"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet commodo est. Integer vel velit diam. Etiam ut dignissim dui. Aenean laoreet felis in ante vulputate, a pulvinar leo laoreet. Aliquam dapibus feugiat tortor at sollicitudin. Pellentesque et eros at urna luctus laoreet et et augue. Vivamus blandit nunc id convallis consectetur. Suspendisse at sapien eget urna sagittis sagittis et rutrum est. Duis commodo nisi eu libero aliquet rutrum. Pellentesque faucibus vulputate leo id imperdiet. Morbi et pulvinar dolor. Ut non sagittis risus. Curabitur in magna sagittis, interdum leo a, dapibus mi. Morbi aliquam sollicitudin ultricies. Mauris auctor condimentum interdum. Vestibulum eget sapien congue, scelerisque tellus nec, tincidunt sapien.</p>
+  <p>Etiam ligula nibh, efficitur ac purus vel, lacinia interdum sapien. Curabitur enim ligula, vestibulum nec tempus vel, accumsan et nulla. Donec eu libero ullamcorper, semper magna nec, lacinia justo. Nulla suscipit, nisi eu commodo aliquam, odio nisl eleifend felis, nec facilisis sapien diam et lorem. Phasellus euismod, erat quis rutrum tincidunt, lacus nunc pellentesque nisi, et pulvinar libero ex quis urna. Maecenas nec eros a justo maximus euismod eget at massa. Aenean vitae enim quis ligula fringilla vulputate. Phasellus tempor gravida dolor, non mattis ipsum eleifend quis. Vestibulum mi libero, lacinia at tempor non, bibendum in tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam laoreet lacinia risus vitae ornare. Donec aliquam vel lectus lobortis auctor. Etiam ultricies ac quam in scelerisque. Sed tincidunt, velit in feugiat consequat, lacus turpis porta purus, eu porttitor felis ligula eu nisl. Integer rhoncus, nunc quis porta mattis, massa urna laoreet dolor, nec lacinia purus lorem eget magna. Nulla tincidunt, lectus imperdiet interdum mattis, nibh odio semper dolor, eget eleifend lorem nisi sit amet arcu.</p>
+  <p>Sed porta sem sed tellus elementum varius. Mauris commodo at tellus vel posuere. Donec quis ipsum enim. Praesent aliquet enim at ligula posuere auctor. Quisque tempus libero vel ultricies tristique. Sed id lorem mi. Praesent a lacus dui. Nunc nec tempus risus, id elementum lectus.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</main>
+<footer class="mainFooter">
+  <h4><a href="index.htm">Home</a> | <a href="about/about.htm">About</a> | <a href="work/work.htm">Work</a> | <a href="contact/contact.htm">Contact</a></h4>
+</footer>
+	<p><a href="index.htm"><img src="images/homeNav.png" alt="" width="120" height="35" class="Icurrent"/></a>
+		<a href="about/about.htm"><img src="images/aboutNav.png" width="120" height="35" alt=""/></a>
+		<a href="work/work.htm"><img src="images/workNav.png" width="120" height="35" alt=""/></a>
+		<a href="contact/contact.htm"><img src="images/contactNav.png" width="120" height="35" alt=""/></a>
+	</p>
+	
+</body>
+</html>
