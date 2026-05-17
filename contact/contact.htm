@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Alvarez: Contact: Final</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<img src="images/cornerImageFix.png" alt="corner image" width="400" height="400" id="cornerImageFix"/>
+<header class="contactMainHeader">
+  <h1>Contact</h1>
+	<script LANGUAGE="JavaScript">
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)	{
+	return (number < 1000) ? number + 1900 : number;
+								}
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+         months[now.getMonth()] + " " +
+         date + ", " +
+         (fourdigits(now.getYear())) ;
+
+// Print out the data.
+document.write(today);
+
+//  End -->
+</script> <a href="../index.htm"><img src="../images/mainContentWrap.png" width="100" height="100" alt=""/></a> </header>
+<nav class="mainNav">
+  <ul>
+    <li><a href="../index.htm">Home</a></li>
+    <li><a href="../about/about.htm">About</a></li>
+    <li><a href="../work/work.htm">Work</a></li>
+    <li><a href="contact.htm" class="Hcurrent">Contact</a></li>
+  </ul>
+</nav>
+<main class="mainContent"><aside class="leftAside">Content for  class "leftAside" Goes Here</aside>
+	<aside class="rightAside">Content for  class "rightAside" Goes Here</aside>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet commodo est. Integer vel velit diam. Etiam ut dignissim dui. Aenean laoreet felis in ante vulputate, a pulvinar leo laoreet. Aliquam dapibus feugiat tortor at sollicitudin. Pellentesque et eros at urna luctus laoreet et et augue. Vivamus blandit nunc id convallis consectetur. Suspendisse at sapien eget urna sagittis sagittis et rutrum est. Duis commodo nisi eu libero aliquet rutrum. Pellentesque faucibus vulputate leo id imperdiet. Morbi et pulvinar dolor. Ut non sagittis risus. Curabitur in magna sagittis, interdum leo a, dapibus mi. Morbi aliquam sollicitudin ultricies. Mauris auctor condimentum interdum. Vestibulum eget sapien congue, scelerisque tellus nec, tincidunt sapien.</p>
+  <p>Etiam ligula nibh, efficitur ac purus vel, lacinia interdum sapien. Curabitur enim ligula, vestibulum nec tempus vel, accumsan et nulla. Donec eu libero ullamcorper, semper magna nec, lacinia justo. Nulla suscipit, nisi eu commodo aliquam, odio nisl eleifend felis, nec facilisis sapien diam et lorem. Phasellus euismod, erat quis rutrum tincidunt, lacus nunc pellentesque nisi, et pulvinar libero ex quis urna. Maecenas nec eros a justo maximus euismod eget at massa. Aenean vitae enim quis ligula fringilla vulputate. Phasellus tempor gravida dolor, non mattis ipsum eleifend quis. Vestibulum mi libero, lacinia at tempor non, bibendum in tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam laoreet lacinia risus vitae ornare. Donec aliquam vel lectus lobortis auctor. Etiam ultricies ac quam in scelerisque. Sed tincidunt, velit in feugiat consequat, lacus turpis porta purus, eu porttitor felis ligula eu nisl. Integer rhoncus, nunc quis porta mattis, massa urna laoreet dolor, nec lacinia purus lorem eget magna. Nulla tincidunt, lectus imperdiet interdum mattis, nibh odio semper dolor, eget eleifend lorem nisi sit amet arcu.</p>
+  <p>Sed porta sem sed tellus elementum varius. Mauris commodo at tellus vel posuere. Donec quis ipsum enim. Praesent aliquet enim at ligula posuere auctor. Quisque tempus libero vel ultricies tristique. Sed id lorem mi. Praesent a lacus dui. Nunc nec tempus risus, id elementum lectus.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</main>
+<footer class="mainFooter">
+  <h4><a href="../index.htm">Home</a> | <a href="../about/about.htm">About</a> | <a href="../work/work.htm">Work</a> | <a href="contact.htm">Contact</a></h4>
+</footer>
+<p><a href="../index.htm"><img src="../images/homeNav.png" width="120" height="35" alt=""/></a><a href="../about/about.htm"><img src="../images/aboutNav.png" width="120" height="35" alt=""/></a><a href="../work/work.htm"><img src="../images/workNav.png" width="120" height="35" alt=""/></a><a href="contact.htm"><img src="../images/contactNav.png" alt="" width="120" height="35" class="Icurrent"/></a></p>
+	<p><a href="mailto:alvarezmilo56@gmail.com">alvarezmilo56@gmail.com</a> <a href="mailto:alvarezmilo56@gmail.com"><img src="images/alvarezEmailLinkIcon.png" width="128" height="128" alt=""/></a></p>
+	<p><img src="images/alvarezFinalSiteImgMap.png" alt="" width="300" height="200" usemap="#Map"/>
+      <map name="Map">
+        <area shape="poly" coords="197,49,153,80,7,77,-1,2,199,3" href="https://redbarrelsgames.com/games/the-outlast-trials/" target="_blank">
+        <area shape="poly" coords="0,115,147,114,187,141,183,199,1,197" href="https://www.starwars.com/" target="_blank">
+        <area shape="poly" coords="155,82,195,56,294,63,297,135,181,131,147,108" href="../index.htm">
+      </map>
+</p>
+</body>
+</html>
